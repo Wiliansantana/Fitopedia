@@ -809,6 +809,10 @@ figure.effect-bubba:hover p {
 	color: #000;
 }
 
+.thumbnail:hover {
+    transform: translateY(-05px) scale(1.05);
+}
+
 /*--------------------
 4.7. Contacts
 --------------------*/
