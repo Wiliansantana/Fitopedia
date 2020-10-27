@@ -7,54 +7,274 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    
     <title>Fitopédia - Café</title>
+    <style>
+      body{
+        background-image: url("images/cf2.jpg");
+        background-repeat: no-repeat;
+      }
+      .card.w-75{
+        margin-top: 150px;
+      }
+    </style>
   </head>
-  <style>
-   .card{
-     margin-top: -170px;
-   }
-  </style>
+  
   <body>
     
-<nav class="navbar navbar-light bg-transparent text-dark nav justify-content-center">
+<nav class="navbar navbar-light bg-white text-dark nav justify-content-center">
     <a class="navbar-brand" href="index.html">
       <img src="images/fito.png">
     </a>
   </nav>
 
- 
- 
-  <header>
+  
   
 
-<div class="carousel-inner">
-  <div class="item active">
-    <img src="images/cf2.jpg" alt="">
-    <div class="carousel-caption ">
-      
-      <p></p>
-    </div>
-  </div>
-
-  <center><div class="card w-75" style="width: 18rem;">
+  <center>
+    <div class="card w-75" style="width: 18rem;">
     <div class="card-body">
-      <h5 class="card-title">Cultura - Café &nbsp;&nbsp;&nbsp; <img src="images/cafe.jpg" width="50" height="50" alt=""></h5>
-      <h6 class="card-subtitle mb-2 text-muted">Café -  &nbsp;&nbsp;&nbsp; <img src="images/grao-de-cafe.png" width="50" height="50" alt=""></h6>
-      <p class="card-text">Selecione a categoria que deseja conhecer!</p>
-      <a href="#" class="card-link">Bactéria</a>
-      <a href="#" class="card-link">Fungos</a>
-      <a href="#" class="card-link">Vírus</a>
-      
+      <h5 class="card-title">Café &nbsp; <img src="images/grao-de-cafe.png" width="50" height="50" alt=""></h5><br>
+      <h5 class="card-text">Selecione a classificação fitopatológica que deseja conhecer.</h5><br><br>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+          
+          <div class="col">
+            <a class="col" data-toggle="collapse" href="#collapseExample"   aria-expanded="false" aria-controls="collapseExample"><img src="images/bacteria.png" width="45" height="45" alt="">&nbsp;&nbsp;Bacterianas</a>
+          </div>
+          <div class="col">
+            <a class="col"data-toggle="collapse" href="#collapseExample1"  aria-expanded="false" aria-controls="collapseExample1"><img src="images/mushroom.png" width="45" height="45" alt="">&nbsp;&nbsp;Fúngicas</a>
+          </div>
+          <br>
+          <div class="col">
+            <a class="col"data-toggle="collapse" href="#collapseExample2"  aria-expanded="false" aria-controls="collapseExample2"><img src="images/coronavirus.png" width="45" height="45" alt="">&nbsp;&nbsp;Viróticas</a>
+          </div>
+          
+          
+          
+          
+        </div></div>
     </div>
   </div></center>
 
   
-</div>
 
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body border-0">
+      
+      <div class="card-deck">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="images/atr.jpg" class="card-img-top" alt="..." >
+      <div class="card-body">
+        <h5 class="card-title">Atrofia dos ramos</h5>
+        <p class="card-text">A bactéria apresenta na forma de bastonete, ela pode bloquear o movimento da água e translocar a seiva no interior da xilema. Ela frio é transmitida por insetos sugadores da seiva do xilema.</p>
+        
+        <p>
+          <a  data-toggle="collapse" href="#collapseExample00" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Veja mais...
+          </a>
+          
+        </p>
+        <div class="collapse" id="collapseExample00">
+          <div class="card card-body border-0">
+            
+      <p class="card-text"><thead>
+               
+                <tr>
+                    <td><strong>Doença:</strong> Atrofia dos Ramos;</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Nome científico:</strong> Xylella fastidiosac</td>
+                    
+                </tr>
+                
+                <hr>
+                
+                <tr>
+                    <td><strong>Tipo:</strong> bacteriana;</td>
+                    
+                </tr>
+                
+                <hr>
+                <tr>
+                    <td><strong>Sintomas: </strong>A principal caracerística da doença é a ocorrência de internódios curtos por falta de zinco, e ramos que apresentam um "tufo" de folhas pequenas. Quando a doença se desenvolve, as folhas caem e os ramos ficam com aspecto de varetas. Além disse, apresenta goma no xilema, acúmulo de cristais de oxalato de cálcio, reduz ou ausente os cloroplastos nas folhas. Bloqueia uma parte dos vasos do xilema por causa da presença das célular bacterianas e podendo produzir fitotoxinas, que podem estar relacionadas aos sintomas da queima foliar.</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Controle:</strong> A medida de controle é a produção de mudas em viveiros protegidos e o manejo adequado desde a sua implantação.</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Temperatura:</strong>26 a 28ºC.</td>
+                    
+                </tr>
+          </div>
+        </div>
       </div>
     </div>
-  </header>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="images/aure.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mancha Aureolada</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p>
+          <a class="btn btn-success" data-toggle="collapse" href="#collapseExample01" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Veja mais...
+          </a>
+          
+        </p>
+        <div class="collapse" id="collapseExample01">
+          <div class="card card-body border-0">
+            
+      <p class="card-text"><thead>
+               
+                <tr>
+                    <td><strong>Doença:</strong> Atrofia dos Ramos;</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Nome científico:</strong> Xylella fastidiosac</td>
+                    
+                </tr>
+                
+                <hr>
+                
+                <tr>
+                    <td><strong>Tipo:</strong> bacteriana;</td>
+                    
+                </tr>
+                
+                <hr>
+                <tr>
+                    <td><strong>Sintomas: </strong>A principal caracerística da doença é a ocorrência de internódios curtos por falta de zinco, e ramos que apresentam um "tufo" de folhas pequenas. Quando a doença se desenvolve, as folhas caem e os ramos ficam com aspecto de varetas. Além disse, apresenta goma no xilema, acúmulo de cristais de oxalato de cálcio, reduz ou ausente os cloroplastos nas folhas. Bloqueia uma parte dos vasos do xilema por causa da presença das célular bacterianas e podendo produzir fitotoxinas, que podem estar relacionadas aos sintomas da queima foliar.</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Controle:</strong> A medida de controle é a produção de mudas em viveiros protegidos e o manejo adequado desde a sua implantação.</td>
+                    
+                </tr>
+                <hr>
+                <tr>
+                    <td><strong>Temperatura:</strong>26 a 28ºC.</td>
+                    
+                </tr>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"></p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="collapse" id="collapseExample1">
+    <div class="card card-body border-0">
+      
+      <div class="card-deck">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="https://gitlab.com/BDAg/catalogacao-fitopatologia/-/raw/master/search/cafe/fungica/ferrugem.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"><thead>
+               
+          <tr>
+              <td><strong>Doença:</strong> Atrofia dos Ramos;</td>
+              
+          </tr>
+          <hr>
+          <tr>
+              <td><strong>Nome científico:</strong> Xylella fastidiosac</td>
+              
+          </tr>
+          
+          <hr>
+          
+          <tr>
+              <td><strong>Tipo:</strong> bacteriana;</td>
+              
+          </tr>
+          
+          <hr>
+          <tr>
+              <td><strong>Sintomas: </strong>A principal caracerística da doença é a ocorrência de internódios curtos por falta de zinco, e ramos que apresentam um "tufo" de folhas pequenas. Quando a doença se desenvolve, as folhas caem e os ramos ficam com aspecto de varetas. Além disse, apresenta goma no xilema, acúmulo de cristais de oxalato de cálcio, reduz ou ausente os cloroplastos nas folhas. Bloqueia uma parte dos vasos do xilema por causa da presença das célular bacterianas e podendo produzir fitotoxinas, que podem estar relacionadas aos sintomas da queima foliar.</td>
+              
+          </tr>
+          <hr>
+          <tr>
+              <td><strong>Controle:</strong> A medida de controle é a produção de mudas em viveiros protegidos e o manejo adequado desde a sua implantação.</td>
+              
+          </tr>
+          <hr>
+          <tr>
+              <td><strong>Temperatura:</strong>26 a 28ºC.</td>
+              
+          </tr>
+    </div>
+  
+
+     
+    </div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="https://s04.video.glbimg.com/x720/2429371.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <img src="https://gitlab.com/BDAg/catalogacao-fitopatologia/-/raw/master/search/cafe/fungica/manchadeascochyta.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div> 
+    </div>
+  </div>
+  <div class="collapse" id="collapseExample2">
+    <div class="card card-body border-0">
+      <div class="card-deck">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
   
     
 
