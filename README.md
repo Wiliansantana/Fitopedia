@@ -1,4 +1,4 @@
-# Fitopedia
+# Fitopédia
 Site que classifica as principais doenças das culturas brasileiras.  EM CONSTRUÇÂO  !!
 ## Preview ...
 
