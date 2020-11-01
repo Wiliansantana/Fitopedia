@@ -1,5 +1,5 @@
 function getCotacao() {
-    fetch("http://localhost:8080/api/v1/cotacao")
+    fetch("https://apifito.herokuapp.com/api/v1/cotacao")
         .then((resp) => resp.json()) 
         .then(function (data) {
             console.log(data)
