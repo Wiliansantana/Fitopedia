@@ -47,14 +47,21 @@ app.get('/api/v1/cotacao', async (req, res, next) => {
         return document.querySelector('.text-verde').value;
     });
 
+    
+    const qualquerUrl3 = `https://www.melhorcambio.com/dolar-hoje`;
+    await page.goto(qualquerUrl3);
 
+
+    const dolar = await page.evaluate(() => {
+        return document.querySelector('.text-verde').value;
+    });
 
     await browser.close();
 
 
 
     // retorna os dados
-    return res.send({ ok: true, milho, cafe, soja });
+    return res.send({ ok: true, milho, cafe, soja, dolar });
 });
 
 
