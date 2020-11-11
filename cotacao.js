@@ -7,6 +7,8 @@ function getCotacao() {
             document.getElementById("milho").innerText = data.milho 
             document.getElementById("cafe").innerText = data.cafe 
             document.getElementById("dolar").innerText = data.dolar 
+            document.getElementById("euro").innerText = data.euro
+
         })
 }
 
