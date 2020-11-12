@@ -1,8 +1,9 @@
 # Fitopédia
-Site que classifica as principais doenças das culturas brasileiras.  EM CONSTRUÇÂO  !!
-## Preview ...
+Fitopédia é uma plataforma desenvolvida pensando em você, estudante, produtor ou pesquisador da área agrícola, para um acesso específico e prático sobre fitopatologias e outras informações das principais culturas brasileiras. Aqui você encontrará informações sobre as doenças que mais acometem essas culturas, artigos e notícias relacionados à elas, além da cotação diária para cada uma delas. Nosso site te proporciona um aprendizado completo com acesso específico e prático, garantindo uma experiência em abrangente.
+
+Link para visualização do projeto: https://wiliansantana.github.io/Front-End-Fitopedia/index.html
 
 
-![1](https://user-images.githubusercontent.com/48594322/82904494-f1af3d80-9f38-11ea-8809-6574fe31d92d.png)
-![2](https://user-images.githubusercontent.com/48594322/82904418-d6dcc900-9f38-11ea-8326-647a5d6a2f29.png)
+![12](https://user-images.githubusercontent.com/48594322/99001770-3300cd00-251a-11eb-9218-1474b7d25a60.png)
+![13](https://user-images.githubusercontent.com/48594322/99001776-36945400-251a-11eb-991b-be1b8d324d83.png)
 
